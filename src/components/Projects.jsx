@@ -61,7 +61,7 @@ export default function Projects() {
       title: "Analog Watch App",
       description: "Live Analog watch app built with HTML, CSS, JavaScript.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/official-amrit86",
+      github: "https://github.com/official-amrit86/Watch-Anolog",
       live: " https://official-amrit86.github.io/Watch-Anolog/"
     },
     {

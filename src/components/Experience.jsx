@@ -9,7 +9,7 @@ function ExperienceItem({ college, company, role, time, details, parcent, src })
             <img
               src={src}
               alt="college-logo"
-              className="w-full h-full object-cover rounded-full border-4 border-purple-500 shadow-lg hover:rotate-[6deg] transition-transform duration-500"
+              className="w-full h-full object-cover rounded-full border-4 border-blue-500 shadow-lg hover:rotate-[6deg] transition-transform duration-500"
             />
           </div>
         )}
@@ -41,12 +41,14 @@ export default function Experience() {
       company: "Cloud Web Solutions",
       role: "Full-Stack Developer",
       time: "2025 - Present",
+      src: "./src/assets/image copy 3.png", // update with real path
       details: ["Built scalable APIs with Node.js"],
     },
     {
       company: "IDA",
       role: "Web Development Trainee",
       time: "2024 (6 months)",
+      src: "./src/assets/image copy 2.png", // update with real path
       details: [
         "Completed intensive training on MERN stack",
         "Developed multiple mini projects",
@@ -69,6 +71,16 @@ export default function Experience() {
       details: [
         "Studied core computer subjects and software development",
         "Completed projects in Java and Web technologies",
+      ],
+    },
+    {
+      college: "A.N.S.H School Gangeo Rewa (M.P)",
+      role: "12 th (Science)",
+      time: "2017 - 2018",
+      parcent: "61.2%",
+      src: "./src/assets/image copy.png", // update with real path
+      details: [
+        "Studied all subjects Science",
       ],
     },
   ];
