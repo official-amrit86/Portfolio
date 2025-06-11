@@ -41,7 +41,7 @@ export default function Projects() {
       description: "Responsive clone of Amazon with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase", "Tailwind"],
       github: "https://github.com/amrit/amazon-clone",
-      live: "https://amrit-amazon-clone.netlify.app"
+      live: "https://official-amrit86.github.io/Amazon-Clone/"
     },
     {
       title: "E-commerce Store",
@@ -55,15 +55,22 @@ export default function Projects() {
       description: "Simple and modern calculator using React.",
       tech: ["React", "CSS"],
       github: "https://github.com/amrit/calculator",
-      live: "https://amrit-calculator.netlify.app"
+      live: "https://official-amrit86.github.io/Calculater/"
     },
     {
       title: "Analog Watch App",
       description: "Live Analog watch app built with HTML, CSS, JavaScript.",
       tech: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/official-amrit86",
-      live: "http://127.0.0.1:5500/watchDigital/"
-    }
+      live: " https://official-amrit86.github.io/Watch-Anolog/"
+    },
+    {
+      title: "Flipkart Clone",
+      description: "Responsive clone of flipkart with cart, login, and product features.",
+      tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
+      github: "https://github.com/amrit/Flipkart-Clone",
+      live: "https://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+    },
   ];
 
   return (
