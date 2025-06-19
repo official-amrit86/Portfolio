@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 py-16 bg-gradient-to-r from-blue-100 to-purple-100"
+      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-22 py-36 bg-gradient-to-r from-blue-100 to-blue-400"
     >
       {/* Text Section */}
 
@@ -21,7 +21,7 @@ export default function Hero() {
   <span className="block bg-gradient-to-r from-[#00c6ff] via-[#0072ff] to-[#ff00cc] text-transparent bg-clip-text drop-shadow-xl animate-text-glow">
     
   </span>
-  <span className="block mt-4 text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#34e89e] via-[#0f3443] to-[#43cea2] drop-shadow-md animate-slide-in-3d">
+  <span className="block mt-4 text-2xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#34e89e] via-[#0f3443] to-[#43cea2] drop-shadow-md animate-slide-in-3d">
   Full-Stack & React Native Developer
 </span>
 
@@ -47,7 +47,7 @@ export default function Hero() {
           id="myimg"
           src={profileImg}
           alt="Amrit Raj Mishra"
-          className="w-92 h-92 md:w-84 md:h-84 object-cover rounded-full border-4 border-indigo-600 shadow-lg hover:scale-125 transition-transform duration-1000"
+          className="w-92 h-92 md:w-84 md:h-84 object-cover rounded-full border-4 border-indigo-300 shadow-lg hover:rotate-360 transition-transform duration-1000"
         />
       </div>
     </section>

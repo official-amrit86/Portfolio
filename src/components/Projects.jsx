@@ -1,9 +1,9 @@
 import React from "react";
 const ProjectCard = ({ title, description, tech, github, live }) => {
   return (
-    <div className="bg-white shadow-2xl rounded-xl p-6 transform hover:scale-105 hover:shadow-3xl transition duration-300">
-      <h3 className="text-2xl font-bold text-indigo-700 mb-2">{title}</h3>
-      <p className="text-gray-600 mb-4">{description}</p>
+    <div className="bg-gradient-to-br from-blue-100 shadow-2xl rounded-xl p-6 transform hover:scale-105 hover:shadow-3xl   transition duration-300">
+      <h3 className=" text-2xl font-bold text-indigo-700 mb-2">{title}</h3>
+      <p className="text-gray-800 mb-4">{description}</p>
       <div className="flex flex-wrap gap-2 mb-4">
         {tech.map((t, index) => (
           <span
@@ -71,14 +71,21 @@ export default function Projects() {
       github: "https://github.com/amrit/Flipkart-Clone",
       live: "https://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
     },
+    {
+      title: "Flipkart Clone",
+      description: "Responsive clone of flipkart with cart, login, and product features.",
+      tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
+      github: "https://github.com/amrit/Flipkart-Clone",
+      live: "https://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+    },
   ];
 
   return (
     <section
       id="projects"
-      className="py-16 px-4 bg-gradient-to-br from-blue-100 via-white to-purple-100"
+      className="py-16 px-4 bg-gradient-to-br from-blue-300 via-white to-purple-300"
     >
-      <h2 className="text-4xl font-extrabold text-center mb-12 bg-gradient-to-r from-indigo-500 to-pink-500 text-transparent bg-clip-text drop-shadow-lg">
+      <h2 className="text-4xl font-extrabold text-center mb-12 bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text drop-shadow-lg">
         My Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

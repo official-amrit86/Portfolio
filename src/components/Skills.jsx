@@ -1,40 +1,101 @@
-import React from "react";
+// import React from "react";
 
-function SkillItem({ name }) {
+// function SkillItem({ name }) {
+//   return (
+//     <div className="bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700 text-white shadow-2xl rounded-2xl p-6 text-center transform transition duration-300 hover:scale-110 hover:rotate-1 hover:shadow-3xl">
+//       <p className="text-xl font-bold drop-shadow-md">{name}</p>
+//     </div>
+//   );
+// }
+
+// export default function Skills() {
+//   const skills = [
+//     "React",
+//     "Node.js",
+//     "Express",
+//     "MongoDB",
+//     "JavaScript",
+//     "HTML5",
+//     "CSS3",
+//     "Tailwind CSS",
+//     "Git & GitHub",
+//     "REST API",
+//     "Vite",
+//     "Firebase"
+//   ];
+
+//   return (
+//     <section
+//       id="skills"
+//       className="py-20 px-4 bg-gradient-to-br from-blue-100 via-purple-200 to-pink-100"
+//     >
+//       <h2 className="text-5xl font-extrabold text-center mb-16 bg-gradient-to-r from-indigo-600 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-[0_4px_6px_rgba(0,0,0,0.3)]">
+//         🚀 My Superpowers
+//       </h2>
+//       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+//         {skills.map((skill) => (
+//           <SkillItem key={skill} name={skill} />
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
+
+
+import React, { useState } from "react";
+
+function SkillItem({ name, img }) {
+  const [showImage, setShowImage] = useState(false);
+
   return (
-    <div className="bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700 text-white shadow-2xl rounded-2xl p-6 text-center transform transition duration-300 hover:scale-110 hover:rotate-1 hover:shadow-3xl">
+    <div
+      onMouseEnter={() => setShowImage(true)}
+      onMouseLeave={() => setShowImage(false)}
+      className="relative bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700 text-white shadow-2xl rounded-2xl p-6 text-center transform transition duration-300 hover:scale-110 hover:rotate-1 hover:shadow-3xl"
+    >
       <p className="text-xl font-bold drop-shadow-md">{name}</p>
+      {showImage && (
+        <img
+          src={img}
+          alt={name}
+          className="absolute inset-0 w-full h-full object-contain rounded-2xl p-4 bg-white bg-opacity-90 transition-opacity duration-500 ease-in-out opacity-100 z-10"
+          class="skill-image"
+          />
+      )}
     </div>
   );
 }
-
 export default function Skills() {
   const skills = [
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS",
-    "Git & GitHub",
-    "REST API",
-    "Vite",
-    "Firebase"
+    { name: "React", img: "/src/assets/skills-logo/React.png" },
+    { name: "Node.js", img: "/src/assets/skills-logo/Node.png" },
+    { name: "Express", img: "/src/assets/skills-logo/Express.png" },
+    { name: "MongoDB", img: "/src/assets/skills-logo/Mongodb.png" },
+    { name: "Javascript", img: "/src/assets/skills-logo/Javascript.png" },
+    { name: "HTML5", img: "/src/assets/skills-logo/Html.png" },
+    { name: "CSS3", img: "/src/assets/skills-logo/Css.png" },
+    { name: "Tailwind CSS", img: "/src/assets/skills-logo/Tailwindcss.png" },
+    { name: "Git & GitHub", img: "/src/assets/skills-logo/Github.png" },
+    { name: "REST API", img: "/src/assets/skills-logo/Restapi.png" },
+    { name: "Vite", img: "/src/assets/skills-logo/vite.png" },
+    { name: "Firebase", img: "/src/assets/skills-logo/Firebase.png" },
+    { name: "Reactnative", img: "/src/assets/skills-logo/Reactnative.png" },
+    { name: "Vercel", img: "/src/assets/skills-logo/Vercel.png" },
+    { name: "Netlify", img: "/src/assets/skills-logo/Netlify.png" },
+    { name: "C-language", img: "/src/assets/skills-logo/C-language.png" },
   ];
 
   return (
     <section
       id="skills"
-      className="py-20 px-4 bg-gradient-to-br from-blue-100 via-purple-200 to-pink-100"
+      className="py-30 px-1 bg-gradient-to-br from-blue-300 via-purple-200 to-pink-300"
     >
       <h2 className="text-5xl font-extrabold text-center mb-16 bg-gradient-to-r from-indigo-600 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-[0_4px_6px_rgba(0,0,0,0.3)]">
         🚀 My Superpowers
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-20 sm:grid-cols-3 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
         {skills.map((skill) => (
-          <SkillItem key={skill} name={skill} />
+          <SkillItem key={skill.name} name={skill.name} img={skill.img} />
         ))}
       </div>
     </section>

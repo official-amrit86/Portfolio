@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+/* skills css add */
+.skill-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 110%;
+  object-fit:scale-up;
+  border-radius: 0.9rem;
+  padding: 1px;
+  background-color: rgba(162, 7, 167, 0.9);
+  transition: margin-right 2s ease-in-out 0.5s;
+  transform: scaley(1.04);
+  z-index: 10;
+}

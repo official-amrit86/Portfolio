@@ -1,32 +1,47 @@
 import React from "react";
 
-function ExperienceItem({ college, company, role, time, details, parcent, src }) {
+function ExperienceItem({
+  college,
+  company,
+  role,
+  time,
+  details,
+  parcent,
+  src,
+}) {
   return (
-    <div className="bg-white/60 backdrop-blur-md border border-purple-300 rounded-2xl p-6 shadow-2xl transform hover:scale-105 transition-transform duration-500 mb-10 hover:bg-white/80">
+    <div
+      className=" bg-white/60 backdrop-blur-md border border-purple-300 rounded-4xl p-10 shadow-4xl transform hover:scale-105 
+    transition-transform duration-500 mb-10 hover:bg-white/80"
+    >
       <div className="flex flex-col md:flex-row items-center gap-6">
         {src && (
           <div className="flex-shrink-0 w-24 h-24 md:w-28 md:h-28">
             <img
               src={src}
               alt="college-logo"
-              className="w-full h-full object-cover rounded-full border-4 border-blue-500 shadow-lg hover:rotate-[6deg] transition-transform duration-500"
+              className=" w-full h-full object-cover rounded-full border-4 border-blue-500 shadow-lg hover:rotate-[360deg] transition-transform duration 500"
             />
           </div>
         )}
-
-        <div className="flex-1">
-          <h3 className="text-2xl font-bold text-purple-800 drop-shadow-sm">{role}</h3>
+        <div className="flex-1 ">
+          <h3 className="text-2xl font-bold text-purple-800 drop-shadow-sm">
+            {role}
+          </h3>
           {parcent && (
             <p className="text-lg font-semibold text-pink-600 mt-1">
               🎯 Percentage: {parcent}
             </p>
           )}
           <p className="text-gray-700 italic mt-1">
-            {college || company} | <span className="font-mono text-gray-800">{time}</span>
+            {college || company} |{" "}
+            <span className="font-mono text-gray-800">{time}</span>
           </p>
           <ul className="list-disc list-inside mt-3 text-gray-800">
             {details.map((detail, idx) => (
-              <li key={idx} className="leading-relaxed">{detail}</li>
+              <li key={idx} className="leading-relaxed">
+                {detail}
+              </li>
             ))}
           </ul>
         </div>
@@ -34,7 +49,6 @@ function ExperienceItem({ college, company, role, time, details, parcent, src })
     </div>
   );
 }
-
 export default function Experience() {
   const experiences = [
     {
@@ -79,18 +93,16 @@ export default function Experience() {
       time: "2017 - 2018",
       parcent: "61.2%",
       src: "./src/assets/image copy.png", // update with real path
-      details: [
-        "Studied all subjects Science",
-      ],
+      details: ["Studied all subjects Science"],
     },
   ];
 
   return (
     <section
       id="experience"
-      className="py-16 px-4 bg-gradient-to-tr from-indigo-100 via-purple-50 to-pink-100 max-w-6xl mx-auto rounded-2xl"
+      className="py-16 px-4 bg-gradient-to-tr from-blue-500 via-purple-50 to-pink-300  max-w-6x1 mx-auto"
     >
-      <h2 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r via-pink-500 to-indigo-600 drop-shadow-lg">
+      <h2 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r via-pink-500 to-indigo-600 drop-shadow-lg ">
         🌟 Experience & Education
       </h2>
       {experiences.map((exp, index) => (
@@ -108,4 +120,3 @@ export default function Experience() {
     </section>
   );
 }
-
