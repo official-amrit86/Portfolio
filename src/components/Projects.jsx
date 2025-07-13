@@ -37,20 +37,6 @@ const ProjectCard = ({ title, description, tech, github, live }) => {
 export default function Projects() {
   const projects = [
     {
-      title: "Amazon Clone",
-      description: "Responsive clone of Amazon with cart, login, and product features.",
-      tech: ["React", "Redux", "Firebase", "Tailwind"],
-      github: "https://github.com/amrit/amazon-clone",
-      live: "https://official-amrit86.github.io/Amazon-Clone/"
-    },
-    {
-      title: "E-commerce Store",
-      description: "Built with MERN stack, includes Stripe payments and admin dashboard.",
-      tech: ["MongoDB", "Express", "React", "Node.js"],
-      github: "https://github.com/amrit/ecommerce-store",
-      live: "https://amrit-ecommerce-store.netlify.app"
-    },
-    {
       title: "Calculator App",
       description: "Simple and modern calculator using React.",
       tech: ["React", "CSS"],
@@ -69,14 +55,28 @@ export default function Projects() {
       description: "Responsive clone of flipkart with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
       github: "https://github.com/amrit/Flipkart-Clone",
-      live: "https://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+      live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+    },
+    {
+      title: "Amazon Clone",
+      description: "Responsive clone of Amazon with cart, login, and product features.",
+      tech: ["React", "Redux", "Firebase", "Tailwind"],
+      github: "https://github.com/amrit/amazon-clone",
+      live: "https://official-amrit86.github.io/Amazon-Clone/"
+    },
+    {
+      title: "E-commerce Store",
+      description: "Built with MERN stack, includes Stripe payments and admin dashboard.",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      github: "https://github.com/amrit/ecommerce-store",
+      live: "https://amrit-ecommerce-store.netlify.app"
     },
     {
       title: "Flipkart Clone",
       description: "Responsive clone of flipkart with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
       github: "https://github.com/amrit/Flipkart-Clone",
-      live: "https://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+      live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
     },
   ];
 

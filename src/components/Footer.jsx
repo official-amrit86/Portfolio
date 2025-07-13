@@ -27,7 +27,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="/Update-CV.pdf"
+            href="/Update-Cv (8).pdf"
             download
             className="hover:underline"
           >
