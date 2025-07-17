@@ -72,11 +72,11 @@ export default function Projects() {
       live: "https://amrit-ecommerce-store.netlify.app"
     },
     {
-      title: "Flipkart Clone",
+      title: "Crud-Operations",
       description: "Responsive clone of flipkart with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
       github: "https://github.com/amrit/Flipkart-Clone",
-      live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
+      live: "https://axiosreactapi.netlify.app/"
     },
   ];
 
