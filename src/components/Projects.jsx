@@ -40,7 +40,7 @@ export default function Projects() {
       title: "Calculator App",
       description: "Simple and modern calculator using React.",
       tech: ["React", "CSS"],
-      github: "https://github.com/amrit/calculator",
+      github: "https://github.com/official-amrit86/Calculater",
       live: "https://official-amrit86.github.io/Calculater/"
     },
     {
