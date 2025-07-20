@@ -54,14 +54,14 @@ export default function Projects() {
       title: "Flipkart Clone",
       description: "Responsive clone of flipkart with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
-      github: "https://github.com/amrit/Flipkart-Clone",
+      github: "https://github.com/official-amrit86/Flipkart-Clone",
       live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
     },
     {
       title: "Amazon Clone",
       description: "Responsive clone of Amazon with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase", "Tailwind"],
-      github: "https://github.com/amrit/amazon-clone",
+      github: "https://github.com/official-amrit86/Amazon-Clone",
       live: "https://official-amrit86.github.io/Amazon-Clone/"
     },
     {
@@ -75,7 +75,7 @@ export default function Projects() {
       title: "Crud-Operations",
       description: "Responsive clone of flipkart with cart, login, and product features.",
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
-      github: "https://github.com/amrit/Flipkart-Clone",
+      github: "https://github.com/official-amrit86/axiosReactApiFullstack/tree/main/src/components",
       live: "https://axiosreactapi.netlify.app/"
     },
   ];
