@@ -67,22 +67,22 @@ function SkillItem({ name, img }) {
 }
 export default function Skills() {
   const skills = [
-    { name: "React", img: "/src/assets/skills-logo/React.png" },
-    { name: "Node.js", img: "/src/assets/skills-logo/Node.png" },
-    { name: "Express", img: "/src/assets/skills-logo/Express.png" },
-    { name: "MongoDB", img: "/src/assets/skills-logo/Mongodb.png" },
-    { name: "Javascript", img: "/src/assets/skills-logo/Javascript.png" },
-    { name: "HTML5", img: "/src/assets/skills-logo/Html.png" },
-    { name: "CSS3", img: "/src/assets/skills-logo/Css.png" },
-    { name: "Tailwind CSS", img: "/src/assets/skills-logo/Tailwindcss.png" },
-    { name: "Git & GitHub", img: "/src/assets/skills-logo/Github.png" },
-    { name: "REST API", img: "/src/assets/skills-logo/Restapi.png" },
-    { name: "Vite", img: "/src/assets/skills-logo/vite.png" },
-    { name: "Firebase", img: "/src/assets/skills-logo/Firebase.png" },
-    { name: "Reactnative", img: "/src/assets/skills-logo/Reactnative.png" },
-    { name: "Vercel", img: "/src/assets/skills-logo/Vercel.png" },
-    { name: "Netlify", img: "/src/assets/skills-logo/Netlify.png" },
-    { name: "C-language", img: "/src/assets/skills-logo/C-language.png" },
+    { name: "React", img: "/assets/skills-logo/React.png" },
+    { name: "Node.js", img: "/assets/skills-logo/Node.png" },
+    { name: "Express", img: "/assets/skills-logo/Express.png" },
+    { name: "MongoDB", img: "/assets/skills-logo/Mongodb.png" },
+    { name: "Javascript", img: "/assets/skills-logo/Javascript.png" },
+    { name: "HTML5", img: "/assets/skills-logo/Html.png" },
+    { name: "CSS3", img: "/assets/skills-logo/Css.png" },
+    { name: "Tailwind CSS", img: "/assets/skills-logo/Tailwindcss.png" },
+    { name: "Git & GitHub", img: "/assets/skills-logo/Github.png" },
+    { name: "REST API", img: "/assets/skills-logo/Restapi.png" },
+    { name: "Vite", img: "/assets/skills-logo/Vite.png" },
+    { name: "Firebase", img: "/assets/skills-logo/Firebase.png" },
+    { name: "Reactnative", img: "/assets/skills-logo/Reactnative.png" },
+    { name: "Vercel", img: "/assets/skills-logo/Vercel.png" },
+    { name: "Netlify", img: "/assets/skills-logo/Netlify.png" },
+    { name: "C-language", img: "/assets/skills-logo/C-language.png" },
   ];
 
   return (

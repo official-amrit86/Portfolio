@@ -1,4 +1,8 @@
-import React from "react";
+import CwsLogo from "/assets/Cws.png";
+import IdaLogo from "/assets/Ida.png";
+import RgpvLogo from "/assets/Rgpv.png";
+import AksLogo from "/assets/Aks.png";
+import NarmadaLogo from "/assets/Narmada.png";
 
 function ExperienceItem({
   college,
@@ -55,14 +59,14 @@ export default function Experience() {
       company: "Cloud Web Solutions",
       role: "Full-Stack Developer",
       time: "2025 - Present",
-      src: "./src/assets/image copy 3.png", // update with real path
+      src: CwsLogo,
       details: ["Built scalable APIs with Node.js"],
     },
     {
       company: "IDA",
       role: "Web Development Trainee",
       time: "2024 (6 months)",
-      src: "./src/assets/image copy 2.png", // update with real path
+      src: IdaLogo,
       details: [
         "Completed intensive training on MERN stack",
         "Developed multiple mini projects",
@@ -73,7 +77,7 @@ export default function Experience() {
       role: "MCA (Hons) Specialization in Computer Science",
       time: "2022 - 2024",
       parcent: "76.5%",
-      src: "./src/assets/image.png", // update with real path
+      src: RgpvLogo,
       details: ["Learned advanced computer science and programming concepts"],
     },
     {
@@ -81,7 +85,7 @@ export default function Experience() {
       role: "BCA (Hons)",
       time: "2018 - 2021",
       parcent: "60.2%",
-      src: "./src/assets/Aks.png", // update with real path
+      src: AksLogo,
       details: [
         "Studied core computer subjects and software development",
         "Completed projects in Java and Web technologies",
@@ -92,7 +96,7 @@ export default function Experience() {
       role: "12 th (Science)",
       time: "2017 - 2018",
       parcent: "61.2%",
-      src: "./src/assets/image copy.png", // update with real path
+      src: NarmadaLogo,
       details: ["Studied all subjects Science"],
     },
   ];

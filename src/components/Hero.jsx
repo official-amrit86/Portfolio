@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/portfolio.jpg"; // 🖼️ Add your profile image in src/assets
+import profileImg from "/assets/portfolio.jpg"; // 🖼️ Add your profile image in src/assets
 
 export default function Hero() {
   return (
