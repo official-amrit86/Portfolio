@@ -44,6 +44,14 @@ export default function Projects() {
       live: "https://official-amrit86.github.io/Calculater/"
     },
     {
+      title: "Seven-Wonder-World",
+     description:
+    "A fully responsive Seven Wonders clone with precise per-wonder icons and product-style feature sections for clear, fast exploration.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap","Tailwindcss"],
+      github: "https://github.com/official-amrit86/Seven-Wonders-Worlds",
+      live: "https://official-amrit86.github.io/Seven-Wonders-Worlds/#wonders"
+    },
+    {
       title: "Analog Watch App",
       description: "Live Analog watch app built with HTML, CSS, JavaScript.",
       tech: ["HTML", "CSS", "JavaScript"],
@@ -56,13 +64,6 @@ export default function Projects() {
       tech: ["React", "Redux", "Firebase","Router" ,"Tailwind"],
       github: "https://github.com/official-amrit86/Flipkart-Clone",
       live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
-    },
-    {
-      title: "Amazon Clone",
-      description: "Responsive clone of Amazon with cart, login, and product features.",
-      tech: ["React", "Redux", "Firebase", "Tailwind"],
-      github: "https://github.com/official-amrit86/Amazon-Clone",
-      live: "https://official-amrit86.github.io/Amazon-Clone/"
     },
     {
       title: "E-commerce Store",
@@ -91,6 +92,13 @@ export default function Projects() {
       tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap"],
       github: "https://github.com/official-amrit86/Portfolio-MernStack",
       live: " https://official-amrit86.github.io/Portfolio-MernStack/"
+    },
+    {
+      title: "Amazon Clone",
+      description: "Responsive clone of Amazon with cart, login, and product features.",
+      tech: ["React", "Redux", "Firebase", "Tailwind"],
+      github: "https://github.com/official-amrit86/Amazon-Clone",
+      live: "https://official-amrit86.github.io/Amazon-Clone/"
     },
   ];
 
