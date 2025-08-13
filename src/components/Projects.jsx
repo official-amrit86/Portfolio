@@ -78,6 +78,20 @@ export default function Projects() {
       github: "https://github.com/official-amrit86/axiosReactApiFullstack/tree/main/src/components",
       live: "https://axiosreactapi.netlify.app/"
     },
+    {
+      title: "Music-Player",
+      description: "Responsive clone,add specific icon and product features.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap"],
+      github: "https://github.com/official-amrit86/music-player-websit",
+      live: "https://official-amrit86.github.io/music-player-websit/"
+    },
+    {
+      title: "Mern-Portfolio",
+      description: "Responsive clone,add specific icon and product features.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap"],
+      github: "https://github.com/official-amrit86/Portfolio-MernStack",
+      live: " https://official-amrit86.github.io/Portfolio-MernStack/"
+    },
   ];
 
   return (
