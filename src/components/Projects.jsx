@@ -37,19 +37,27 @@ const ProjectCard = ({ title, description, tech, github, live }) => {
 export default function Projects() {
   const projects = [
     {
+      title: " Anganwadi worker",
+     description:
+    "A fully responsive  Anganwadi worker  with precise  icons and product-style feature sections for clear, fast exploration.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap","Tailwindcss"],
+      github: "https://github.com/official-amrit86/Anganwadi-Portfolio",
+      live: "https://official-amrit86.github.io/Anganwadi-Portfolio/"
+    },
+    {
+      title: "Seven-Wonder-World",
+      description:
+      "A fully responsive Seven Wonders clone with precise per-wonder icons and product-style feature sections for clear, fast exploration.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap","Tailwindcss"],
+      github: "https://github.com/official-amrit86/Seven-Wonders-Worlds",
+      live: "https://official-amrit86.github.io/Seven-Wonders-Worlds/#wonders"
+    },
+    {
       title: "Calculator App",
       description: "Simple and modern calculator using React.",
       tech: ["React", "CSS"],
       github: "https://github.com/official-amrit86/Calculater",
       live: "https://official-amrit86.github.io/Calculater/"
-    },
-    {
-      title: "Seven-Wonder-World",
-     description:
-    "A fully responsive Seven Wonders clone with precise per-wonder icons and product-style feature sections for clear, fast exploration.",
-      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap","Tailwindcss"],
-      github: "https://github.com/official-amrit86/Seven-Wonders-Worlds",
-      live: "https://official-amrit86.github.io/Seven-Wonders-Worlds/#wonders"
     },
     {
       title: "Analog Watch App",
