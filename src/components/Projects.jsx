@@ -53,6 +53,14 @@ export default function Projects() {
       live: "https://official-amrit86.github.io/Seven-Wonders-Worlds/#wonders"
     },
     {
+      title: "StreamBox-Plus-YouTube",
+      description:
+      "A fully responsive website StreamBox-Plus-YouTube with precise and product-style feature sections for clear, fast exploration.",
+      tech: ["Html", "Css", "JavaScript","section" ,"Bootstrap","Tailwindcss"],
+      github: "https://github.com/official-amrit86/StreamBox-Plus-YouTube",
+      live: "https://official-amrit86.github.io/StreamBox-Plus-YouTube/"
+    },
+    {
       title: "Calculator App",
       description: "Simple and modern calculator using React.",
       tech: ["React", "CSS"],
