@@ -73,7 +73,6 @@ export default function Hero() {
             Full-Stack & React Native Developer
           </span>
         </h1>
-
         <p className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
           Full-Stack Developer | MERN Stack Expert | JavaScript Enthusiast
         </p>

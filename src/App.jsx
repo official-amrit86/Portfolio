@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 import './App.css';
 import Hero from './components/Hero';  
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+    
       <Hero />
       <Skills />   
       <Projects /> 
