@@ -36,7 +36,7 @@ export default function Footer() {
           ))}
 
           <a
-            href="/Update-Cv (8).pdf"
+            href="/Amrit-cv.pdf"
             download
             className="flex items-center gap-1 text-yellow-200 hover:underline transition-all duration-300 transform hover:scale-110 hover:rotate-1"
           >
