@@ -4,7 +4,7 @@ export default function Footer() {
   const links = [
     { label: 'About', link: '#about', icon: 'assets/about-logo/About.png' },
     { label: 'Projects', link: '#projects', icon: 'assets/about-logo/Project1.png' },
-    { label: 'Contact', link: '#contact', icon: 'assets/about-logo/Cantact.png' },
+    { label: 'Contact', link: 'tel:+918602310258', icon: 'assets/about-logo/Cantact.png' },
     { label: 'GitHub', link: 'https://github.com/your-github-username', icon: '/assets/about-logo/Github.png' },
     { label: 'Twitter', link: 'https://x.com/OfficialAmrit86', icon: '/assets/about-logo/Twitter.png' },
     { label: 'Instagram', link: 'https://www.instagram.com/officialamrit86', icon: '/assets/about-logo/Instagram.png' },

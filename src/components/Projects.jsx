@@ -90,6 +90,13 @@ export default function Projects() {
       live: "http://flipkart-clone-git-main-official-amrit86s-projects.vercel.app"
     },
     {
+      title: "Incredible-India",
+      description: "Responsive  with cart, specific  features.",
+      tech: ["React", "Redux", "Css","Html5","Router" ,"Tailwind"],
+      github: "https://github.com/official-amrit86/IncredibleIndia",
+      live: "https://incredible-india-git-main-official-amrit86s-projects.vercel.app/"
+    },
+    {
       title: "E-commerce Store",
       description: "Built with MERN stack, includes Stripe payments and admin dashboard.",
       tech: ["MongoDB", "Express", "React", "Node.js"],
